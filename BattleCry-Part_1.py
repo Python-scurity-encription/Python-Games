@@ -8,7 +8,7 @@ blood=5
 fight=10
 hungry=0
 time.sleep(5)
-print('When you see the word DOD, please enter the trick you want to use, "d" to attack.')
+print('When you see the word DOD, please enter the trick you want to use, press d to attack, s to use a trick, xyz to use a one-time big move.')
 time.sleep(7)
 print('First level, jungle adventure!')
 time.sleep(3)
@@ -69,6 +69,8 @@ print('You saw a group of wolf soldiers in front!')
 time.sleep(3)
 print('System prompt: wolf soldier, HP: 10, speed: slow, attack power: 5, quantity 3, distance 5 meters from you.')
 time.sleep(5)
+print('Do not press "d" for this war!')
+print('Use another way!')
 print('DOD')
 box=input()
 if box=='d':
