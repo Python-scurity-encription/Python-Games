@@ -1,7 +1,7 @@
 import time
 print('\nHello, welcome to the battle of Skyrim, this was originally a collective training ground for warriors, because a monster race built a camp here and imprisoned our warriors in prisons everywhere, we need you to help us, Please enter your nickname now')
 name=input()
-print('Hello'+name+'Warrior, now your information will be displayed...Please wait')
+print('Hello '+name+' Warrior, now your information will be displayed...Please wait')
 time.sleep(3)
 print('HP: 5, combat power: 10, hunger value: 0, normal attack distance: uncertain')
 blood=5
