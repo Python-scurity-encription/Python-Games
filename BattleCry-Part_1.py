@@ -8,7 +8,7 @@ blood=5
 fight=10
 hungry=0
 time.sleep(5)
-print('When you see the word DOD, please enter the trick you want to use, press d to attack, a to use the first move, s to use the second move,xyz to use the supergreat .')
+print('When you see the word DOD, please enter the trick you want to use, press d to attack, a to use the first move.')
 time.sleep(7)
 print('First level, jungle adventure!')
 time.sleep(3)
