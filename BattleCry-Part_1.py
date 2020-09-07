@@ -1,5 +1,5 @@
 import time
-print('\nHello, welcome to the battle of Skyrim, this was originally a collective training ground for warriors, because a monster race built a camp here and imprisoned our warriors in prisons everywhere, we need you to help us, Please enter your nickname now:')
+print('\nHello, welcome to the battle of Skyrim, this was originally a collective training ground for warriors, because a monster race built a camp here and save our imprisoned warriors in prisons all over the place, we need you to help us, Please enter your nickname now:')
 name=input()
 print('Hello '+name+' Warrior, now your information will be displayed...Please wait...')
 time.sleep(3)
@@ -8,7 +8,7 @@ blood=5
 fight=10
 hungry=0
 time.sleep(5)
-print('When you see the word DOD, please enter the trick you want to use, press d to attack, s to use a trick, xyz to use a one-time big move.')
+print('When you see the word DOD, please enter the trick you want to use, press d to attack, a to use the first move, s to use the second move,xyz to use the supergreat .')
 time.sleep(7)
 print('First level, jungle adventure!')
 time.sleep(3)
