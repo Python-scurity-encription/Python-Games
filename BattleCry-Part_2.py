@@ -38,3 +38,7 @@ time.sleep(2)
 print('System prompt: skeleton, HP: 50, speed: slow, attack power: 5, distance 5 meters from you.')
 time.sleep(3)
 box=input('DOD')
+if box == 'd':
+    print('You attacked it, and it was die.')
+else:
+    print('You used a trick, it died and gave you a bow.')
