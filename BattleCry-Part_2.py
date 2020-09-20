@@ -42,3 +42,4 @@ if box == 'd':
     print('You attacked it, and it was die.')
 else:
     print('You used a trick, it died and gave you a bow.')
+print('System prompt: bow, increase attack range 10.')
