@@ -120,6 +120,26 @@ if box=='a':
 else:
     print('Remaining meat x5, hunger value: ?.')
     #hungry=?
+print('It is night now, so the system gave you a bed.')
+time.sleep(3)
+box = input('press b to sleep, don\'t sleep press anything else.')
+if box == 'b':
+      print('You are sleeping now... please wait 15 second.')
+      time.sleep(15)
+else:
+      print('You did not sleep, so the zombies killed you!')
+      quit()
+print('You waked, and found a chest behind you.')
+time.sleep(2)
+box=input('Open the chest press o, don\'t open press anything else.')
+if box=='o':
+      print('You found a leather chest armor.')
+      time.sleep(3)
+      print('Leather chest armor: increase protection value：2')
+      protection = 2
+else:
+      print('You do not open the chest.')
+      protection = 0
 print('System warning: the first level of the boss is coming!')
 time.sleep(2)
 print('A "mountain" appeared in front of you...')
@@ -176,3 +196,5 @@ time.sleep(1)
 print('System prompt: You have passed the first level!!!')
 input('Hit [ENTER] to continue this game.')
 input('good job! unfortunaly the second level isn\'t ready, so don\'t forget to subscribe to our channel and always check you E-mail, Bye!')
+#the '#' is for Peter to changed.
+#this part of game haven't ready, so don't play it.
