@@ -104,8 +104,22 @@ print('System reward: one-time big move, attack power: 100, distance: 400 meters
 one=0
 time.sleep(5)
 print('You found a river in front of you...')
+time.sleep(2)
+print('You came to the river.')
+time.sleep(1)
+print('You saw some fish in the river.)
+time.sleep(2)
+print('You caught them, and the system rewards you: food, 5 fish.')
+time.sleep(2)
+print('It is evening now, and you caneat something.')
 time.sleep(3)
-print('')
+box=input("It's noon, press a to eat fish X1, hunger value: 1, don't eat press anything else.")
+if box=='a':
+    print('Remaining fish x4, hunger value: ?.')
+    #hungry=?
+else:
+    print('Remaining meat x5, hunger value: ?.')
+    #hungry=?
 print('System warning: the first level of the boss is coming!')
 time.sleep(2)
 print('A "mountain" appeared in front of you...')
