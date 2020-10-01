@@ -140,6 +140,13 @@ if box=='o':
 else:
       print('You do not open the chest.')
       protection = 0
+print('You walked by the river slowly...')
+time.sleep(2)
+print('You found a little house beside the river.')
+time.sleep(2)
+box=input('Walked in and press w, do not walk in press anything else.')
+if box == 'w':
+      print('You walked in and saw a 
 print('System warning: the first level of the boss is coming!')
 time.sleep(2)
 print('A "mountain" appeared in front of you...')
