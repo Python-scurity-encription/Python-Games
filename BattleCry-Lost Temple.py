@@ -4,7 +4,7 @@ input('HP: 5, combat power: 10, hunger value: 0, normal attack distance: uncerta
 blood=5
 fight=10
 hungry=0
-input('Lost Temple!')
+input('Welcome to the new Chapter, Lost Temple!')
 input('You found a temple in the jungle...')
 
 input('You walked in and see some angry bees!')
@@ -14,6 +14,7 @@ input('System prompt: angry bees, HP: 2, speed: medium, attack power: 1, quantit
 input('System reward: cleave, attack power: 70, distance: 50 meters, use input c, blood volume: 50.')
 
 box=input('DOD')
+
 if box == 'c':
     input('Excellent!')
     
@@ -43,7 +44,8 @@ input('System prompt: skeleton, HP: 50, speed: slow, attack power: 5, distance 5
 
 box=input('DOD')
 if box == 'd':
-    input('You attacked it, and it was die.')
+    input('You attacked it, and it is die.')
 else:
     input('You used a trick, it died and gave you a bow.')
 input('System prompt: bow, increase attack range 10.')
+#nice story! i like it
