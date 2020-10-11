@@ -147,6 +147,12 @@ time.sleep(2)
 box=input('Walked in and press w, do not walk in press anything else.')
 if box == 'w':
       print('You walked in and saw a ...')
+      time.sleep(1)
+      print('Zombie!')
+      time.sleep(1)
+      print('System prompt: zombie, HP: 20, speed: middle, attack power: 5, protection: 2, distance 5 meters from you.')
+else:
+      print("You did not walked in ti the house.")
 print('System warning: the first level of the boss is coming!')
 time.sleep(2)
 print('A "mountain" appeared in front of you...')
