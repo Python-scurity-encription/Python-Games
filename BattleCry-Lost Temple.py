@@ -1,3 +1,4 @@
+backpack = []
 name=input('hello,Warrior, what\'s your name?')
 input('Hello '+name+' Warrior, now your information will be displayed...Please wait...')
 input('HP: 5, combat power: 10, hunger value: 0, normal attack distance: uncertain.')
@@ -22,7 +23,8 @@ box=input('Open the chest and press o, do not open and press other.')
 if box == 'o':
     input('You opened the chest,')
     input('And you find an enchanted iron sword!')    
-    input('System prompt: enchanted iron sword, the property is sharp II, increase attack damage 30, reduce attack power 10.')    
+    input('System prompt: enchanted iron sword, the property is sharp II, increase attack damage 30, reduce attack power 10.')
+    backpack.append("enchanted iron sword: sharp II")
 else:
     input('You do not open the chest.')   
 input('You see a skeleton behind you!')
@@ -31,5 +33,6 @@ box=input('DOD')
 if box == 'd':
     input('You attacked it, and it is die.')
 else:
-    input('You used a trick, it died and gave you a bow.')
-input('System prompt: bow, increase attack range 10.')
+    input('You used a trick, it died and gave you an enchanted bow and an arrow.')
+input('System prompt: enchanted bow, the property is infinite I, increase attack range 10.')
+backpack.append("enchanted bow: infinite I")
